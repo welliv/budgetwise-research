@@ -1,5 +1,7 @@
 # budgetwise-research
 
+**Repository**: https://github.com/welliv/budgetwise-research
+
 A financially responsible research skill for Hermes agents.
 
 **BudgetWise** forces real financial discipline on research tasks:
@@ -48,7 +50,8 @@ This skill was built with verifiability in mind. See:
 
 ## Links
 
-- Demo Video: [To be added]
+- **GitHub**: https://github.com/welliv/budgetwise-research
+- Demo Video: [To be added after recording]
 - Full Evidence Package: [To be added]
 - X Post: [To be added]
 
