@@ -1,0 +1,9 @@
+# Hermes
+*.log
+.env
+.DS_Store
+
+# Evidence (you can choose to commit or ignore)
+evidence/*.png
+evidence/*.jpg
+evidence/*.mp4
