@@ -4,14 +4,22 @@
 
 ## 1. One-Command Reset (Recommended)
 
-Run this in your terminal before recording:
+You can use either method:
 
+**Option 1 – Quick inline command:**
 ```bash
 # Reset to clean demo state
 printf 'budgetwise_balance: 0.50\n§\nbudgetwise_spend_log: []\n' > ~/.hermes/memories/MEMORY.md
 
 # Verify
 cat ~/.hermes/memories/MEMORY.md | grep -E 'budgetwise_balance|budgetwise_spend_log'
+```
+
+**Option 2 – Use the helper script (recommended):**
+```bash
+# After cloning the repo
+cd budgetwise-research
+./scripts/reset-for-recording.sh
 ```
 
 Expected output:
@@ -29,7 +37,7 @@ budgetwise_spend_log: []
   mppx account list
   ```
 - [ ] Open these in tabs/windows:
-  - Final demo transcript (final-demo-transcript.md)
+  - Final demo transcript (references/final-demo-transcript.md)
   - Stripe test dashboard: https://dashboard.stripe.com/test/payments
   - This checklist
 - [ ] Have the two exact prompts ready (copy below)
@@ -79,4 +87,3 @@ Use budgetwise-research to research: "Top 3 most interesting new developments in
 - "Now with permission to use paid tools when they add value. It calls mpp-agent..."
 - "Here is the live Stripe test receipt for the exact amount it chose to spend."
 - "When balance drops below fifteen cents, the skill refuses to spend without confirmation."
-
